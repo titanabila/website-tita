@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.Home {
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(255, 134, 160);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: rgb(255, 203, 214);
+    border-bottom: 1px solid pink;
+}
+
+.logo {
+    color: rgb(113, 51, 51);
+    font-size: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+nav ul li a {
+    color: rgb(113, 51, 51);
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: pink;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.5);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.image {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    transform: rotateY(180deg);
+}
+
+.image img {
+    height: 95%;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    border-radius: 20px;
+    transform: translateX(50%);
+}
+
+.content {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+h4 {
+    color: rgb(113, 51, 51);
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 65px;
+    margin: 25px 25px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.content a {
+    font-size: 25px;
+    background: rgb(113, 51, 51);
+    color: pink;
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.content a:hover {
+    background: transparent;
+    border: 2px solid brown;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: rgb(255, 134, 160);
+}
+
+.about-me {
+    width: 1200px;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me img {
+    height: auto;
+    width: 250px;
+    border-radius: 90px;
+}
+
+.about-text {
+    width: 700px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    border-bottom: 15px solid rgb(228, 90, 90);
+}
+
+.about-text h5 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.button {
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid brown;
+    cursor: pointer;
+}
+
+.skill {
+    background: rgb(228, 90, 90);
+    width: 94%;
+    padding: 50px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.certificates {
+    padding: 150px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificate-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.education{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    text-align: center;
+    gap: 30px;
+}
+.education div {
+    font-size: 20;
+}
+.education .atas{
+    text-align: start;
+    margin-left: 30px;
+}
+.education .tengah{
+    text-align: center;
+}
+.education .bawah{
+    text-align: center;
+    margin-left: 25%;
+}
